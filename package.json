@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "tsx watch src/index.js",
     "start": "node src/index.js",
-    "deploy": "node src/scripts/deployCommands.js",
+    "deploy": "node src/services/CommandDeploymentService.js",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
